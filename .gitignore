@@ -205,3 +205,40 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# === Productside / Colab add-ons ===
+# Colab artifacts
+.ipynb_checkpoints/
+.colab/
+*.ipynb_convert/
+
+# Mac + misc
+.DS_Store
+
+# Generated eval artifacts
+outputs/
+*.csv
+*.jsonl
+*.log
+*.tmp
+*.bak
+
+# Traces and labels (reproducible, not source)
+human_labels.jsonl
+human_labels.csv
+synthetic_evals.csv
+traces_export.csv
+
+# Transient notebooks
+*.ipynb~
+*checkpoint.ipynb
+
+# Colab/Drive mounts (never commit)
+drive/
+content/
+/content/drive/
+
+# Local venvs just in case
+.venv/
+venv/
+ENV/
