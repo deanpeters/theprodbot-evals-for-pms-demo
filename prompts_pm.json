@@ -1,0 +1,12 @@
+{
+  "T0_problem": "Do not ask questions. Summarize the problem and target users for a 'chatbot for product managers' building AI chatbots at large B2B companies. Produce Reasoning (text) + JSON.",
+  "T1_product_refs": "Do not ask questions. Summarize comparable or adjacent products (LennyBot, Teresa Torres' AI Interview Coach, ChatPRD, Kraftful) with 3–5 bullets and citations.",
+  "T2_problem_synthesis": "Do not ask questions. Synthesize what problem is being solved and for whom in 5 bullets. Include JSON summary + assumptions.",
+  "T3_global_pop_econ": "Do not ask questions. Estimate global PM population and an ARPU anchor for PM chatbots. Include Reasoning and JSON.",
+  "T4_regions_clusters": "Do not ask questions. Propose 3 region or city-cluster options (must include NYC and SF) with rationales. Select one yourself and return JSON with selected_id.",
+  "T5_tam": "Do not ask questions. Compute TAM with top-down & bottom-up formulas, units, low/base/high, and 1–2 citations. Reasoning + JSON.",
+  "T6_sam": "Do not ask questions. Compute SAM by filtering TAM to the selected cluster; show filters, assumptions, formula, 1–2 citations. Reasoning + JSON.",
+  "T7_som": "Do not ask questions. Compute SOM via benchmark share, capacity bound, adoption bound → median. Output revenue, accounts, % of SAM. Reasoning + JSON.",
+  "T8_market_share": "Do not ask questions. Propose a next-year market-share range; use benchmarks if found, else offer 5–25% with rationale. Reasoning + JSON.",
+  "T9_output": "Do not ask questions. Produce the final report in Markdown brief, CSV tables (as text), and a single JSON object per the schemas."
+}

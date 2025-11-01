@@ -1,0 +1,34 @@
+# config_session.yaml
+session_name: TAM-SAM-SOM-Demo
+description: >
+  Multi-turn chatbot session to explore TAM, SAM, SOM estimation
+  for AI Product Manager chatbots in different city clusters.
+
+models_to_test:
+  - gpt-3.5-turbo
+  - gpt-4o-mini
+  - gpt-4o
+  - gpt-4.1
+
+regions:
+  - North Carolina
+  - Tennessee
+  - Virginia
+
+city_clusters:
+  - [Raleigh, Austin]
+  - [San Francisco, New York]
+
+product_context:
+  problem_statement: >
+    Building AI assistants for Product Managers that help estimate
+    market size and provide TAM/SAM/SOM reasoning.
+  comparable_products:
+    - LennyBot
+    - TeresaTorres AI Interview Coach
+    - ChatPRD
+    - Kraftful
+  price_assumption: 300.00
+  subscription_years: 1
+  currency: USD
+  time_horizon_years: 1
