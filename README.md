@@ -91,4 +91,4 @@ and how teams align model behavior with product intent.
 
 © 2025 Productside · Created by Dean Peters  
 for *How PMs 10× Their Role with AI – Part 2: Building Smarter*  
-[productsidetraining.com](https://www.productside.com)
+[Productside.com](https://www.productside.com)
