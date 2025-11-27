@@ -5,6 +5,9 @@
 **A Productside hands-on demo** for product managers learning to run and evaluate AI reasoning systems — no data science degree required.  
 This is the companion repo for the *How PMs 10× Their Role with AI – Part 2: Building Smarter* session.
 
+Here's the link to the live, 13Nov25 webinar demonstrating how this notebook was created and is uses:
+https://hubs.li/Q03Tk4fM0
+
 ---
 
 ## 🎯 Purpose
